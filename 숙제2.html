@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <title> 신문을 판매합니다.</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Nanum Myeongjo', serif;
+        }
+
+        .wrap {
+            width: 600px;
+            margin: 10px auto;
+        }
+
+        .display-4 {
+            font-size: 40px;
+        }
+
+        .display-5 {
+            font-size: 25px;
+
+        }
+
+        .btn {
+            width: 100px;
+            margin-left: 380px;
+        }
+
+        .font-what {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="card">
+            <img class="card-img-top"
+                src="http://blogfiles.naver.net/20121018_10/hyeshink_1350503677707VzBHK_JPEG/large17.jpegg"
+                alt="Card image cap">
+
+        </div>
+        <p>
+        <h1 class="display-4"> 신문을 판매합니다. <a class="font-what">가격: 200원/장</a>
+        </h1>
+        </p>
+        <p class="lead">
+            <a>스마트폰으로 뉴스를 보기 쉬워지게 되면서 사람들이 신문을 사지 않게 되어,</a>
+            <a>일상 속에서 가끔 한번 볼 수 있게된 신문을 판매합니다.</a>
+        </p>
+        <h2 class="주문하기">
+            주문하기
+        </h2>
+        <form>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">주문자이름</span>
+                </div>
+                <input type="text" class="form-control" placeholder="" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">수량</label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>장</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <div class="input-group-prepend"> 
+                    <label class="input-group-text" for="inputGroupSelect01">장</label>
+                </div>
+            </div>
+            <div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="">주소</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            </p>
+            <p>
+            <div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" id="">전화번호</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>전화번호</option>
+                        <option value="1">010</option>
+                        <option value="2">011</option>
+                        <option value="3">017</option>
+                    </select>
+                    <a>
+                        _
+                    </a>
+                    <input type="text" maxlength="4">
+                    <a>_</a>
+                    <input type="text" maxlength="4">
+
+                </div>
+            </div>
+        </form>
+        </p>
+
+
+
+    </div>
+    <p class='btn'>
+        <button onclick="hey()" type="button" class="btn btn-outline-dark" ;>주문하기</button>
+
+        <script>
+            function hey() {
+                alert("주문이 완료되었습니다. 감사합니다")
+            }
+        </script>
+    </p>
+
+
+    <div class="card-columns">
+
+    </div>
+    </div>
+    <div>
+
+    </div>
+</body>
+
+</html>
